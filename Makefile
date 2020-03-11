@@ -188,6 +188,7 @@ compile: stamp-clean-compiled .stamp-compiled
 # check if running via buildbot and remove the build_dir folder to save some space
 ifdef IS_BUILDBOT
 	rm -rf $(OPENWRT_DIR)/build_dir
+	rm -rf $(OPENWRT_DIR)/staging_dir
 endif
 	touch $@
 
