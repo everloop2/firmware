@@ -309,11 +309,8 @@ setup-sdk: .stamp-patched
 	cat $(TARGET_CONFIG) >$(SDK_DIR)/.config
 	$(UMASK); $(MAKE) -C $(SDK_DIR) defconfig
 
-stamp-clean-firmwares:
-	rm -f $(OPENWRT_DIR)/.config
-	rm -f .stamp-$*
-
 stamp-clean-%:
+	rm -f $(OPENWRT_DIR)/.config
 	rm -f .stamp-$*
 
 stamp-clean:
