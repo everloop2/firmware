@@ -15,7 +15,7 @@ set -e
 IB_FILE=""
 PROFILES=""
 TEMP_DIR=""
-PKGLIST_DIR="$(dirname "$0")/imagetypes"
+PKGLIST_DIR="$(dirname "$0")/packagelists"
 DEST_DIR="$(dirname "$0")/firmwares"
 DEBUG=""
 USECASES=""
