@@ -1,3 +1,5 @@
+This branch is a fork of the master branch, which includes a monthly update of the upstream changes.
+
 # Freifunk Berlin Firmware
 https://wiki.freifunk.net/Berlin:Firmware
 
